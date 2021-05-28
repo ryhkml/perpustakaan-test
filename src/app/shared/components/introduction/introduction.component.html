@@ -1,0 +1,23 @@
+<ion-content [scrollY]="false" [fullscreen]="true" class="ion-padding">
+  <ion-slides [pager]="true">
+    <ion-slide>
+      <div class="ion-margin-top">
+        <h1>Selamat Datang</h1>
+        <p>The <b>ionic conference app</b> is a practical preview of the ionic framework in action, and a demonstration of proper code use.</p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="ion-margin-top">
+        <h1>What is Library ?</h1>
+        <p><b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.</p>
+      </div>
+    </ion-slide>
+    <ion-slide class="ion-flex">
+      <div class="ion-justify-content-center ion-align-items-center">
+        <ion-button (click)="dismissModal()" [routerLink]="['/home']" [fill]="'clear'">
+          Continue <ion-icon [slot]="'end'" [name]="'arrow-forward'"></ion-icon>
+        </ion-button>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

@@ -1,0 +1,19 @@
+# Source code
+*.html            text eol=lf
+*.less            text eol=lf
+*.js              text eol=lf
+*.ts              text eol=lf
+
+# Documentation
+*.md              text eol=lf
+CHANGELOG         text
+CONTRIBUTING      text
+LICENSE           text
+
+# Configs
+*.yml             text eol=lf
+*.yaml            text eol=lf
+*.json            text eol=lf
+
+# Docker
+Dockerfile        text

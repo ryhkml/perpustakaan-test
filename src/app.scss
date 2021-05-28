@@ -1,0 +1,12 @@
+.ion-disabled {
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+ion-slides {
+  --bullet-background: var(--ion-color-medium) !important;
+}
+
+ion-tab-button {
+  --background: var(--ion-color-light);
+}

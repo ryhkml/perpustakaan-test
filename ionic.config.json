@@ -1,0 +1,10 @@
+{
+  "name": "perpustakaan-test",
+  "type": "angular",
+  "integrations": {
+    "capacitor": { }
+  },
+  "hooks": {
+    "build:after": "scripts/build-after.js"
+  }
+}

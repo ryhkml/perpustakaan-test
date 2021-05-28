@@ -1,0 +1,6 @@
+{
+	"appName": "Perpustakaan Test",
+	"webDir": "www",
+	"appId": "io.ionic.starter",
+	"bundledWebRuntime": false
+}

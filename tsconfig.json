@@ -1,0 +1,42 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "paths": {
+      "crypto": ["./node_modules/crypto-js"]
+    },
+    "strict": true,
+    "outDir": "./dist/out-tsc",
+    "allowJs": true,
+    "baseUrl": "./",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "**/dist/*",
+    "**/assets/*",
+    "**/node_modules/*"
+  ],
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInputAccessModifiers": true,
+    "strictInjectionParameters": true,
+    "emitDecoratorMetadata": true,
+    "fullTemplateTypeCheck": true,
+    "strictTemplates": true
+  }
+}
